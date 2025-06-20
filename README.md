@@ -10,18 +10,7 @@ A full-stack web platform connecting users with trusted home chefs for daily, on
 
 ---
 
-## 🖼️ Screenshots
-
-![Landing Page](![image](https://github.com/user-attachments/assets/9d515e7b-8e32-4871-8a62-d14b2892d8fc)
-)  
-*Responsive hero section showcasing “Most Trusted Platform...”*
-
-![Services Menu](./screenshots/services.png)  
-*Top navigation with service categories (Hindi & English support).*
-
----
-
-## 🧰 Tech Stack
+🧰 Tech Stack
 
 | Layer     | Technologies                     |
 |-----------|----------------------------------|
