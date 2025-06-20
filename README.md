@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# 👨‍🍳 ChefKart – At-Home Cooking Services Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web platform connecting users with trusted home chefs for daily, one-time, or party cooking. Built with React (Vite), Node.js, Express, and MongoDB. Live site deployed on Vercel.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+🔗 [Visit ChefKart](https://chef-kart-one.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Screenshots
 
-### `npm test`
+![Landing Page](./screenshots/landing.png)  
+*Responsive hero section showcasing “Most Trusted Platform...”*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Services Menu](./screenshots/services.png)  
+*Top navigation with service categories (Hindi & English support).*
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧰 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Layer     | Technologies                     |
+|-----------|----------------------------------|
+| Frontend  | React.js, Vite, Tailwind CSS     |
+| Backend   | Node.js, Express.js, MongoDB     |
+| Dev       | dotenv, CORS                     |
+| Deploy    | Vercel (Frontend), Render/Local (Backend) |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔐 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Chef registration & listing API (full backend integration)
+- RESTful APIs: chef registration, service categories
+- Responsive UI with mobile-first design
+- Multilingual support (English & Hindi navigation)
+- Structured MVC architecture backend
+- Environmental configuration using `.env`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🏗️ Project Structure
+chefKart/
+├── Backend/
+│ ├── controllers/
+│ ├── models/ # Mongoose schemas
+│ ├── routes/ # Express route files
+│ ├── middlewares/ # (if any validation/auth)
+│ ├── app.js
+│ ├── server.js
+│ └── .env
+└── Frontend/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+├── index.html
+└── vite.config.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+yaml
+Copy
+Edit
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Installation & Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Clone the repo**
 
-### Code Splitting
+```bash
+git clone https://github.com/yourusername/chefKart.git
+cd chefKart
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+Copy
+Edit
+# Backend
+cd Backend
+npm install
 
-### Analyzing the Bundle Size
+# Frontend
+cd ../Frontend
+npm install
+Configure environment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In Backend/.env:
 
-### Making a Progressive Web App
+ini
+Copy
+Edit
+PORT=5000
+MONGO_URI=<Your MongoDB URI>
+Run locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+Copy
+Edit
+# Start backend
+cd Backend
+npm start
 
-### Advanced Configuration
+# Start frontend
+cd ../Frontend
+npm run dev
+Visit:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Frontend ▶️ http://localhost:5173
 
-### Deployment
+API ▶️ http://localhost:5000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📦 Live Deployment Steps
+Frontend automatically deployed via Vercel on push to main.
 
-### `npm run build` fails to minify
+Backend deployable on platforms like Render, Heroku, or AWS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📬 Contact & Contribution
+Contributor: Om kumar
+
+Contact: omk99919@gmail.com
+
+Contributions are welcome! Open an issue or submit a PR.
+
+⚖️ License
+Distributed under the MIT License.
+
+yaml
+Copy
+Edit
+
+
+
